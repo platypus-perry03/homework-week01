@@ -5,5 +5,6 @@ void main() {
     (name) => name == '리사' || name == '지수', // '리사' 또는 '지수'만 유지
   );
 
-  
+  print(newList);
+  print(newList.toList()); // Iterable을 List로 다시 변환할 때 .tolist() 사용
 }
