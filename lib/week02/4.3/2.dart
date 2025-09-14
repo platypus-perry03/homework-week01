@@ -25,3 +25,11 @@ void switcher(dynamic anything) {
       print('no match');
   }
 }
+
+void main() {
+  // match: aaa 출력
+  switcher('aaa');
+  // match: [1, 2] 출력
+  switcher([1, 2]);
+  // match: [-,]
+}
